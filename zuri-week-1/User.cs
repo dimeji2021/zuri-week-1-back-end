@@ -2,9 +2,9 @@
 {
     public class User
     {
-        public string UserName { get; set; }
+        public string SlackUsername { get; set; }
+        public bool Backend { get; set; }
         public int Age { get; set; }
         public string Bio { get; set; }
-        public bool Backend { get; set; }
     }
 }
