@@ -10,7 +10,7 @@ namespace zuri_week_1.Controllers
             User = new User
             {
                 SlackUsername = "kehinde-dimeji",
-                Age = 24,
+                Age = 31,
                 Bio = " am an enthusiastic, highly optimistic agile software engineer," +
                 " passionate about technology and known to pick up new skills in no short time.",
                 Backend = true,
