@@ -6,7 +6,7 @@ namespace zuri_week_1.Service
     {
         public ResponseDto BasicOperation(InputDto input)
         {
-            double cal = input.operation_type==OperationType.Addition? input.x + input.y :
+            int cal = input.operation_type==OperationType.Addition? input.x + input.y :
                       input.operation_type == OperationType.Subtraction? input.x - input.y :
                       input.x * input.y;
             var res = new ResponseDto

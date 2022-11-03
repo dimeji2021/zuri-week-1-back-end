@@ -3,7 +3,7 @@
     public class ResponseDto
     {
         public string SlackUserName { get; set; }
-        public double Result { get; set; }
+        public int Result { get; set; }
         public string operation_type { get; set; }
     }
 }
