@@ -14,7 +14,7 @@ namespace zuri_week_1.Controllers
             User = new User
             {
                 SlackUsername = "kehinde-dimeji",
-                Age = 31,
+                Age = 16,
                 Bio = " am an enthusiastic, highly optimistic agile software engineer," +
                 " passionate about technology and known to pick up new skills in no short time.",
                 Backend = true,
@@ -22,13 +22,14 @@ namespace zuri_week_1.Controllers
             _arithemetic = arithemetic;
         }
 
-        [HttpGet("Get-User")]
+
+        [HttpGet("get-user")]
         public IActionResult Get()
         {
             var user = User;
             return Ok(user);
         }
-        [HttpPost("perform-basic-arithmetic-operations")]
+        [HttpGet("perform-basic-arithmetic-operations")]
         public IActionResult PerformArithmeticOperation(InputDto input)
         {
             var result = _arithemetic.BasicOperation(input);
