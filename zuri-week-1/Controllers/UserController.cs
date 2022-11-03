@@ -30,7 +30,7 @@ namespace zuri_week_1.Controllers
             return Ok(user);
         }
         [HttpPost("perform-basic-arithmetic-operations")]
-        public IActionResult PerformArithmeticOperation(InputDto input)
+        public IActionResult PerformArithmeticOperation([FromBody]InputDto input)
         {
             var result = _arithemetic.BasicOperation(input);
             return Ok(result);
