@@ -1,4 +1,4 @@
-﻿namespace zuri_week_1
+﻿namespace zuri_week_1.Model
 {
     public class User
     {

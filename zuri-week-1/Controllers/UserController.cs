@@ -1,11 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using zuri_week_1.Model;
+using zuri_week_1.Service;
 
 namespace zuri_week_1.Controllers
 {
     public class UserController : Controller
     {
         private readonly User User;
-        public UserController()
+        private readonly IArithemeticOperations _arithemetic;
+
+        public UserController(IArithemeticOperations arithemetic)
         {
             User = new User
             {
@@ -15,6 +19,7 @@ namespace zuri_week_1.Controllers
                 " passionate about technology and known to pick up new skills in no short time.",
                 Backend = true,
             };
+            _arithemetic = arithemetic;
         }
 
         [HttpGet("Get-User")]
@@ -22,6 +27,12 @@ namespace zuri_week_1.Controllers
         {
             var user = User;
             return Ok(user);
+        }
+        [HttpPost("perform-basic-arithmetic-operations")]
+        public IActionResult PerformArithmeticOperation(InputDto input)
+        {
+            var result = _arithemetic.BasicOperation(input);
+            return Ok(result);
         }
     }
 }
