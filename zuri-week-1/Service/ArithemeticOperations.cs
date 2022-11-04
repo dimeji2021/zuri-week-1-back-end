@@ -15,7 +15,7 @@ namespace zuri_week_1.Service
             if (input.operation_type.ToLower().Contains("add") || input.operation_type.ToLower().Contains("addition"))
             {
                 res.Result = input.x + input.y;
-                res.Operation_type = OperationType.Addition;
+                res.Operation_type = OperationType.addition;
 
 
             }
@@ -23,7 +23,7 @@ namespace zuri_week_1.Service
             {
 
                 res.Result = input.x - input.y;
-                res.Operation_type = OperationType.Subtraction;
+                res.Operation_type = OperationType.subtraction;
 
 
             }
@@ -31,7 +31,7 @@ namespace zuri_week_1.Service
             {
 
                 res.Result = input.x * input.y;
-                res.Operation_type = OperationType.Multiplication;
+                res.Operation_type = OperationType.multiplication;
             }
             else
             {

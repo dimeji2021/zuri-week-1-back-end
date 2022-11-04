@@ -4,8 +4,8 @@ namespace zuri_week_1
 {
     public enum OperationType
     {
-        Addition,
-        Subtraction,
-        Multiplication
+        addition,
+        subtraction,
+        multiplication
     }
 }
