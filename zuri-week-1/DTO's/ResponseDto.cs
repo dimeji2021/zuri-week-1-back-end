@@ -4,6 +4,6 @@
     {
         public string SlackUserName { get; set; }
         public int Result { get; set; }
-        public string operation_type { get; set; }
+        public OperationType Operation_type { get; set; }
     }
 }

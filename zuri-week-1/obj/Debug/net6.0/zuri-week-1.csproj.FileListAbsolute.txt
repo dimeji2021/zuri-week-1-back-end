@@ -52,3 +52,6 @@ C:\Users\hp\Desktop\Code Challenge\zuri-week-1-back-end\zuri-week-1\obj\Debug\ne
 C:\Users\hp\Desktop\Code Challenge\zuri-week-1-back-end\zuri-week-1\obj\Debug\net6.0\zuri-week-1.pdb
 C:\Users\hp\Desktop\Code Challenge\zuri-week-1-back-end\zuri-week-1\obj\Debug\net6.0\zuri-week-1.genruntimeconfig.cache
 C:\Users\hp\Desktop\Code Challenge\zuri-week-1-back-end\zuri-week-1\obj\Debug\net6.0\ref\zuri-week-1.dll
+C:\Users\hp\Desktop\Code Challenge\zuri-week-1-back-end\zuri-week-1\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\hp\Desktop\Code Challenge\zuri-week-1-back-end\zuri-week-1\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\hp\Desktop\Code Challenge\zuri-week-1-back-end\zuri-week-1\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

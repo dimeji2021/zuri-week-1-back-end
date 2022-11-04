@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "IHXihQc6ng6dzqXyaOuBU1XYttXNBx+ewMiIhUM/iuUz275LteOqm7v8J5HSpXiNPf2NkbYx/FX9y2f0/EnUAg==",
+  "dgSpecHash": "BtvUBwlme4lINHlhsJe2f+ATlFEUtqxfUHdi6TTb32mc/UVXoAGCp2j2Mr8md24ZhEYZ2TTzBqFK2NEYzkWlDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\Desktop\\Code Challenge\\zuri-week-1-back-end\\zuri-week-1\\zuri-week-1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
