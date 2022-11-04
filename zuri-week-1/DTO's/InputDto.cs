@@ -1,7 +1,4 @@
-﻿using FluentValidation;
-using zuri_week_1;
-
-namespace zuri_week_1
+﻿namespace zuri_week_1
 {
     public class InputDto
     {

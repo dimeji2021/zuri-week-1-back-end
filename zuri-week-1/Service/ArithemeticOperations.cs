@@ -1,5 +1,8 @@
-﻿using System.Linq.Expressions;
+﻿using Newtonsoft.Json;
+using System;
+using System.Text;
 using zuri_week_1.DTO_s;
+using zuri_week_1.Model;
 
 namespace zuri_week_1.Service
 {
@@ -36,42 +39,7 @@ namespace zuri_week_1.Service
             }
             return res;
         }
-        //public ResponseDto BasicOperation(InputDto input)
-        //{
-        //    var res = new ResponseDto();
-        //    res.SlackUserName = "kehinde-dimeji";
-        //    if (input.operation_type == OperationType.Addition)
-        //    {
-        //        res.Result = input.x + input.y;
-        //        res.Operation_type = input.operation_type;
-
-
-        //    }
-        //    else if (input.operation_type == OperationType.Subtraction)
-        //    {
-
-        //        res.Result = input.x - input.y;
-        //        res.Operation_type = input.operation_type;
-
-
-        //    }
-        //    else if (input.operation_type == OperationType.Multiplication)
-        //    {
-
-        //        res.Result = input.x * input.y;
-        //        res.Operation_type = input.operation_type;
-        //    }
-        //    else
-        //    {
-        //        var cal = input.operation_type.ToString().ToLower().Contains("add") || input.operation_type.ToString().ToLower().Contains("addition") ? input.x + input.y
-        //                : input.operation_type.ToString().ToLower().Contains("subtract") || input.operation_type.ToString().ToLower().Contains("subtraction") ? input.x - input.y
-        //                : input.operation_type.ToString().ToLower().Contains("multiply") || input.operation_type.ToString().ToLower().Contains("multiplication") ? input.x * input.y
-        //                : 00;
-        //        res.Result = cal;
-        //        res.Operation_type = OperationType.Addition;
-        //    };
-        //    return res;
-        //}
+      
         //public ResponseDto BasicOperation(InputDto input)
         //{
         //    var res = new ResponseDto();

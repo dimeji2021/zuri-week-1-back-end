@@ -1,8 +1,4 @@
-using FluentValidation;
-using FluentValidation.AspNetCore;
-using FluentValidation.Validators;
 using System.Text.Json.Serialization;
-using zuri_week_1;
 using zuri_week_1.Service;
 
 var builder = WebApplication.CreateBuilder(args);
