@@ -14,7 +14,7 @@ namespace zuri_week_1.Controllers
             User = new User
             {
                 SlackUsername = "kehinde-dimeji",
-                Age = 21,
+                Age = 20,
                 Bio = " am an enthusiastic, highly optimistic agile software engineer," +
                 " passionate about technology and known to pick up new skills in no short time.",
                 Backend = true,
@@ -35,7 +35,7 @@ namespace zuri_week_1.Controllers
             var result = _arithemetic.BasicOperation(input);
             if (result.Result==00)
             {
-                return BadRequest("Invalid operation");
+                return BadRequest("Invalid operation type! Operation can only be addition, multiplication, or subtraction.");
             }
             return Ok(result);
         }
