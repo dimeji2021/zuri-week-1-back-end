@@ -11,7 +11,7 @@ namespace zuri_week_1.Service
         public ResponseDto BasicOperation(InputDto input)
         {
             var res = new ResponseDto();
-            res.SlackUserName = "kehinde-dimeji";
+            res.SlackUsername = "kehinde-dimeji";
             if (input.operation_type.ToLower().Contains("add") || input.operation_type.ToLower().Contains("addition"))
             {
                 res.Result = input.x + input.y;
